@@ -1,0 +1,66 @@
+.package-details {
+  /* margin: 20px 0; */
+  padding: 20px;
+}
+.package-details h3 {
+  font-size: 17px;
+  color: #fff;
+  font-weight: 100;
+  margin-top: 10px;
+}
+.total-price {
+  font-size: 20px !important;
+  font-weight: 400;
+  display: flex;
+  margin-right: 40px;
+  justify-content: end;
+}
+.second-counter h3 {
+  font-size: 30px !important;
+}
+/* Terms and conditions, total QAR, button */
+
+.termsAndConditions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.terms {
+  padding: 15px;
+  border-radius: 6px;
+}
+.terms h4 {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 10px;
+  color: #fabd18;
+}
+.terms ol {
+  margin: 0;
+  padding-left: 20px;
+}
+.terms ol li {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Poppins", serif;
+  color: #ffff;
+  line-height: 1.5;
+}
+.total {
+  justify-items: center;
+  font-family: "Poppins", serif;
+}
+.total-price {
+  font-weight: 500 !important;
+}
+.total button {
+  padding: 20px 61px;
+  border-radius: 50px;
+  border: none;
+  font-weight: 500;
+  font-size: larger;
+  background: rgb(238, 155, 0);
+  font-family: "Poppins", serif;
+  color: #ffff;
+}

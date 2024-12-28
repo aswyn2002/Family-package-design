@@ -1,0 +1,45 @@
+.date-picker {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  border-radius: 50px 50px 0 0;
+  gap: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(1turn, #9f3090 15.18%, #221533 114.29%);
+}
+
+.date-picker label {
+  font-size: 16px;
+  font-weight: bold;
+  white-space: nowrap;
+  font-family: "Rammetto One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.custom-date-input {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  background: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  gap: 8px;
+}
+
+.date-input-field {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 100px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.calendar-icon {
+  color: blue;
+  font-size: 18px;
+}

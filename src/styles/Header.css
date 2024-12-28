@@ -1,0 +1,13 @@
+.header {
+  /* padding: 30px; */
+  width: 80%;
+  text-align: center;
+  display: grid;
+  color: white;
+  border-radius: 25px 25px 0 0;
+  position: relative;
+}
+.header img {
+  width: 100%;
+  border-radius: 25px 25px 0 0;
+}
