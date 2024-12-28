@@ -5,7 +5,7 @@ import PackageDetails from './components/PackageDetails';
 import './App.css';
 
 const App = () => {
-  const [total, setTotal] = useState(724);
+  const [total, setTotal] = useState(0);
 
   return (
     <div className="app-container">
